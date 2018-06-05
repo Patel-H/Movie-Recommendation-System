@@ -1,0 +1,16 @@
+html,body {
+  height:100%;
+  width:100%;
+  margin:0;
+}
+
+body {
+  display:flex;
+}
+form {
+  font: 15px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  margin:auto; /* nice thing of auto margin if display:flex; it center both horizontal and vertical */
+  max-width: 500px;
+  padding: 30px 70px;
+  background: #f4f7f8;
+}
